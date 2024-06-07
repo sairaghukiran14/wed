@@ -1,6 +1,18 @@
 import "./InCard.css";
-
-const InCard = ({ id, imgURl, designName, price, discount }) => {
+interface InCardProps {
+  id: string;
+  imgURl: string;
+  designName: string;
+  price: number;
+  discount: number;
+}
+const InCard: React.FC<InCardProps> = ({
+  id,
+  imgURl,
+  designName,
+  price,
+  discount,
+}) => {
   return (
     <div
       className="InCard w-80 bg-white text-black hover:scale-105 rounded-xl transition-all cursor-pointer"
