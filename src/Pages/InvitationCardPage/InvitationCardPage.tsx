@@ -1,13 +1,13 @@
 import "./InvitationCardPage.css";
 import "../../Utilities/InCard/InCard";
 import InCard from "../../Utilities/InCard/InCard";
-interface card {
-  id: string;
-  imgURl: string;
-  designName: string;
-  price: number;
-  discount: number;
-}
+// interface card {
+//   id: string;
+//   imgURl: string;
+//   designName: string;
+//   price: number;
+//   discount: number;
+// }
 const InvitationCardPage = () => {
   const cards = [
     {
